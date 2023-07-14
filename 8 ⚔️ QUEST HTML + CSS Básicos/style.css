@@ -1,0 +1,22 @@
+.moda th {
+  background-color: #BB86FC;
+  color: white;
+}
+
+.casa th {
+  background-color: #00C4B4;
+  color: white;
+}
+
+td {
+  background-color: #424250;
+  color: white;
+}
+
+table {
+  margin-bottom: 0px;
+}
+
+p {
+  font-weight: bold;
+}
