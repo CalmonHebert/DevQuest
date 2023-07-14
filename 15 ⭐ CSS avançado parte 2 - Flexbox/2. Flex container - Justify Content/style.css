@@ -1,0 +1,48 @@
+/* globais */
+
+.container {
+  display: flex;
+  max-width: 400px;
+  border: 1px solid #ccc;
+}
+
+.item {
+  background-color: rgb(195, 145, 241);
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.justify-content .item1,
+.justify-content .item1 {
+  width: 80px;
+}
+
+/* css principal */
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
