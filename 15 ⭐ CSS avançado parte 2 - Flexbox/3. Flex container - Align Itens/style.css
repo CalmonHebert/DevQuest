@@ -1,0 +1,49 @@
+/* globais */
+
+.container {
+  display: flex;
+  max-width: 400px;
+  border: 1px solid #ccc;
+}
+
+.item {
+  background-color: rgb(195, 145, 241);
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.justify-content .item1,
+.justify-content .item1 {
+  width: 80px;
+}
+
+/* css principal  */
+
+.container {
+  height: 130px;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.baseline :first-child {
+  padding-top: 25px;
+}
