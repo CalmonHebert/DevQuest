@@ -24,17 +24,18 @@
 }
 
 /* css principal  */
-function alignItems() {
-  document.querySelector('.container').classList.toggle("alignItems");
-}
 
 .container1 {
   display: flex;
   background-color: #cccccc;
   flex-wrap: wrap;
   height: 300px;
-  align-content: center;
+  /* align-content: center; */
   width: 300px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-content: center;
+
 }
 
 .alignItems {
@@ -46,24 +47,5 @@ function alignItems() {
   width: 50px;
   background-color: #0066ff;
   margin: 0 4px;
-}
 
-.box1 {
-  height: 50px;
-}
-
-.box2 {
-  height: 30px;
-}
-
-.box3 {
-  height: 80px;
-}
-
-.box4 {
-  height: 60px;
-}
-
-.box5 {
-  height: 20px;
 }
