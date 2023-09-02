@@ -1,0 +1,51 @@
+/* globais */
+
+.container {
+  display: flex;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  align-content: end;
+
+}
+
+.item {
+  background-color: rgb(195, 145, 241);
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  flex: 0;
+}
+
+.item1 {
+  align-self: center;
+}
+
+/* css principal  */
+
+.container1 {
+  display: flex;
+  background-color: #cccccc;
+  flex-wrap: wrap;
+  height: 300px;
+  /* align-content: center; */
+  width: 300px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-content: center;
+
+}
+
+.alignItems {
+  align-items: flex-end;
+}
+
+.box {
+  display: inline-block;
+  width: 50px;
+  background-color: #0066ff;
+  margin: 0 4px;
+
+}
